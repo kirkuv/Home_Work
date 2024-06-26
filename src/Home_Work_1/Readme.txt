@@ -12,5 +12,5 @@
 Задание 6.1 - UserVasya
 Задание 6.2 - UserAnastasia
 Задание 6.3 - OperSwitch
-Задание 7 - 
+Задание 7 - Phone
 Задание 8 - 
