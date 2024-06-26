@@ -13,4 +13,4 @@
 Задание 6.2 - UserAnastasia
 Задание 6.3 - OperSwitch
 Задание 7 - Phone
-Задание 8 - 
+Задание 8 - ToBinaryString
