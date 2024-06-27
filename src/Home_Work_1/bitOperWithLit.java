@@ -2,7 +2,7 @@ package Home_Work_1;
 
 import java.util.Scanner;
 
-public class bitOperWithLit {
+public class BitOperWithLit {
     public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);
         int f = scanner.nextInt();
