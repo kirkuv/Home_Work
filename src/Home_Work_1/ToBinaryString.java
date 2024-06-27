@@ -16,12 +16,12 @@ public class ToBinaryString {
     public static String toBinaryString(byte number) {
         String num = "";
         int temp = Math.abs(number);
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 8; i++) {                 // прямой перевод в двоичный
             num = temp % 2 + num;
             temp /= 2;
         }
 
-        if (number < 0) {
+        if (number < 0) {                           // если число отрицательное
             char[] d = num.toCharArray();
             char[] r = new char[8];
 
