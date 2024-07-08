@@ -4,6 +4,8 @@
 1.5 - loops.LoopsTasksAll.java
 1.6 - loops.MultiplicationTable.java
 2.1.1-2.1.2 - utils.ArraysUtils.java
+2.1.1.1 - arrays.ArrayFromConsole.java
+2.1.1.2 - arrays.ArraysRandom.java
 2.2 - arrays.ArraysIteration.java
 2.4 - arrays.SeveralTaskArrays.java
 Также вспомогательное utils.ConsoleUtil.java - для проверки ланных и метод ввода данных.
