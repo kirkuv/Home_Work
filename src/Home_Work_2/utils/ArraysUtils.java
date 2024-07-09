@@ -35,4 +35,17 @@ public class ArraysUtils {
         }
         return array;
     }
+    public static String arrayToString (int [] oneArray){
+        StringBuilder builder = new StringBuilder();
+
+        for (int i = 0; i < oneArray.length; i++) {
+            builder.append(oneArray[i]);
+            if (i < oneArray.length - 1) {
+                builder.append(", ");
+            }
+        }
+
+        return builder.toString();
+    }
 }
+
