@@ -5,9 +5,9 @@ import Home_Work_3.calcs.simple.CalculatorWithMathExtends;
 import Home_Work_3.calcs.simple.CalculatorWithOperator;
 
 public class CalculatorWithCounterAutoChoiceAgregation {
-    CalculatorWithOperator calcWithOperator;
-    CalculatorWithMathCopy calcWithMathCopy;
-    CalculatorWithMathExtends calcWithMathExtends;
+    private CalculatorWithOperator calcWithOperator;
+    private CalculatorWithMathCopy calcWithMathCopy;
+    private CalculatorWithMathExtends calcWithMathExtends;
     private long countOperation = 0;
 
     public CalculatorWithCounterAutoChoiceAgregation (CalculatorWithOperator calc){
