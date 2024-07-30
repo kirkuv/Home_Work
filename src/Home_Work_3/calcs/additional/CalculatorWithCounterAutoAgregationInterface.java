@@ -21,7 +21,7 @@ import Home_Work_3.calcs.api.ICalculator;
 
 public class CalculatorWithCounterAutoAgregationInterface {
 
-        ICalculator calc;
+        private ICalculator calc;
 
         private long countOperation = 0;
 

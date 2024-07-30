@@ -4,7 +4,7 @@ import Home_Work_3.calcs.api.ICalculator;
 import Home_Work_3.calcs.simple.CalculatorWithMathExtends;
 
 public class CalculatorWithMemoryDecorator {
-    ICalculator calc;
+    private ICalculator calc;
     ICalculator getCalculator(){
         return calc;
     }

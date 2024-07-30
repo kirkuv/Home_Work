@@ -4,7 +4,7 @@ import Home_Work_3.calcs.api.ICalculator;
 
 public class CalculatorWithMemory {
 
-    ICalculator calc;
+    private ICalculator calc;
 
     private double last_result;
     private double memory;
