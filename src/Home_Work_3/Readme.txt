@@ -7,3 +7,6 @@
 Задание 7 - calcs.additional.CalculatorWithCounterAutoComposite, runners.CalculatorWithCounterDelegateCompositeMain
 Задание 8 - calcs.additional.CalculatorWithCounterAutoAgregation, runners.CalculatorWithCounterDelegateAgregationMain
 Задание 9 - calcs.additional.CalculatorWithCounterAutoChoiceAgregation, runners.CalculatorWithCounterDelegateChoiceAgregationMain
+Задание 10 - calcs.api.ICalculator
+Задание 11 - calcs.additional.CalculatorWithCounterAutoAgregationInterface, runners.CalculatorWithCounterAutoCompositeInterfaceMain
+Задание 12 - 
