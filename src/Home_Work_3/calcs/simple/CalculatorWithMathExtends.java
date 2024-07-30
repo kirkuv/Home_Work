@@ -1,6 +1,8 @@
 package Home_Work_3.calcs.simple;
 
-public class CalculatorWithMathExtends extends CalculatorWithOperator{
+import Home_Work_3.calcs.api.ICalculator;
+
+public class CalculatorWithMathExtends extends CalculatorWithOperator implements ICalculator {
     @Override
     public double abs(double a) {
         return Math.abs(a);

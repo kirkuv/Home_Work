@@ -18,7 +18,7 @@ public class CalculatorWithCounterAutoComposite {
 
      //Деление
 
-    public double divide(double x, double y) {
+    public double div(double x, double y) {
         countOperation++;
         return calc.div(x,y);
     }
@@ -26,7 +26,7 @@ public class CalculatorWithCounterAutoComposite {
 
      //Умножение
 
-    public double multiply(double x, double y) {
+    public double mul(double x, double y) {
         countOperation++;
         return calc.mul(x,y);
     }
@@ -42,7 +42,7 @@ public class CalculatorWithCounterAutoComposite {
 
     //вычитание
 
-    public double subtract(double x, double y) {
+    public double sub(double x, double y) {
         countOperation++;
         return calc.sub(x,y);
     }
@@ -50,7 +50,7 @@ public class CalculatorWithCounterAutoComposite {
     /**
     *возведение в степень
      */
-    public double pow(double x, int y) {
+    public double exponentInt(double x, int y) {
         countOperation++;
         return calc.exponentInt(x,y);
     }
