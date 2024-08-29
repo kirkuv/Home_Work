@@ -19,7 +19,7 @@ public class RandomGenerate {
         return sb.toString();
     }
     public static String generateRandomRussianString(){
-        int lenght = random.nextInt(20);
+        int lenght = random.nextInt(10);
         StringBuilder sb = new StringBuilder(lenght);
         for (int i = 0; i < lenght; i++) {
             sb.append((char)(random.nextInt(32)+1072));
@@ -30,7 +30,7 @@ public class RandomGenerate {
         return names[random.nextInt(names.length)];
     }
     public static String generateAllSymbol (){
-        int lenght = random.nextInt(20);
+        int lenght = random.nextInt(10);
         StringBuilder sb = new StringBuilder(lenght);
         for (int i = 0; i < lenght; i++) {
             sb.append((char)(random.nextInt(255)));

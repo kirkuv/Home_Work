@@ -35,6 +35,7 @@ public class Main {
         Collections.sort(listP,PPC);
         time = System.currentTimeMillis() - time;
         System.out.println(time + " мс время сортровки коллекции");
+        
         time = System.currentTimeMillis();
         List<Animal> listA = collectionCreatorA.generateAnimals(100_000);
         time = System.currentTimeMillis() - time;
