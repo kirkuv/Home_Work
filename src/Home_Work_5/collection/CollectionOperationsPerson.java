@@ -30,4 +30,10 @@ public class CollectionOperationsPerson {
         }return personList;
     }
 
+    public HashSet<Person> listToHS(List<Person> pl){
+        return new HashSet<>(pl);
+    }
+   // public TreeSet<Person> listToTS (List<Person> treepl){
+    //    return new TreeSet<>(treepl);
+   // }
 }

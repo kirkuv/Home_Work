@@ -1,9 +1,11 @@
 package Home_Work_5.collection;
 
 import Home_Work_5.Animal;
+import Home_Work_5.Person;
 import Home_Work_5.RandomGenerate;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 import static Home_Work_5.RandomGenerate.random;
@@ -25,5 +27,8 @@ public class CollectionOperationsAnimals {
 
             animalList.add(new Animal(age,nick));
         }return animalList;
+    }
+    public HashSet<Animal> listToHSA (List<Animal> plA){
+        return new HashSet<>(plA);
     }
 }
