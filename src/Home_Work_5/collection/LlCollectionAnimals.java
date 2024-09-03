@@ -1,9 +1,8 @@
 package Home_Work_5.collection;
 
-import Home_Work_5.Animal;
+import Home_Work_5.dto.Animal;
 import Home_Work_5.RandomGenerate;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

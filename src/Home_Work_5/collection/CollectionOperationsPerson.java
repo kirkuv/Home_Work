@@ -1,6 +1,6 @@
 package Home_Work_5.collection;
 
-import Home_Work_5.Person;
+import Home_Work_5.dto.Person;
 import Home_Work_5.RandomGenerate;
 
 import java.util.*;

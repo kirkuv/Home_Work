@@ -6,9 +6,9 @@ import Home_Work_5.collection.LlCollectionAnimals;
 import Home_Work_5.comparator.AnimalComparator;
 import Home_Work_5.comparator.AnimalComparatorNick;
 import Home_Work_5.comparator.PasswordAndPersonComparator;
-import Home_Work_5.comparator.PersonComparator;
+import Home_Work_5.dto.Animal;
+import Home_Work_5.dto.Person;
 
-import javax.xml.transform.Source;
 import java.io.IOException;
 import java.util.*;
 
