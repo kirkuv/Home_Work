@@ -8,11 +8,9 @@ import Home_Work_5.comparator.AnimalComparatorNick;
 import Home_Work_5.comparator.PasswordAndPersonComparator;
 import Home_Work_5.comparator.PersonComparator;
 
+import javax.xml.transform.Source;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -69,6 +67,34 @@ public class Main {
         HashSet<Person> personHashSet = collectionCreator.listToHS(tree);
         time = System.currentTimeMillis() - time;
         System.out.println(time + " Мс Время Создание коллекции HashSet");
+
+        long startiterationTime = System.currentTimeMillis();
+        Iterator<Person> itr = listP.iterator();
+        int count = 0;
+        while (itr.hasNext()){
+            itr.next();
+            count++;
+        }
+        System.out.println("В коллекции listP "+ count+ " элементов");
+        long iterationDuration = System.currentTimeMillis() - startiterationTime;
+        System.out.println("Итерация через Iterator заняла "+iterationDuration +" ms");
+
+        long startLoopTime = System.currentTimeMillis();
+        Object [] array = listP.toArray();
+            for (Object obj : array){
+            }
+            long loopDuration = System.currentTimeMillis()-startLoopTime;
+        System.out.println("Итерация через обычный цикл заняла "+ loopDuration + " мс");
+
+        long startRemoveIteratorTime = System.currentTimeMillis();
+        itr = listP.iterator();
+        while (itr.hasNext()){
+            itr.next();
+            itr.remove();
+        }
+        long finishRemoveTime = System.currentTimeMillis() - startRemoveIteratorTime;
+        System.out.println("Удаление через Iterator заняло " + finishRemoveTime + " ms");
+
         //TreeSet<Person> personTreeSet = collectionCreator.listToTS(tree);
        // Collections.sort(personHashSet, new PersonComparator()); НЕЛЬЗЯ СОРТРОВАТЬ!!!!
 
