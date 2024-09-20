@@ -8,8 +8,8 @@ public class MainSearchEngine {
         String filePath = "Война и мир_книга.txt";
         String textBook = ReadFile.readFile(filePath);
         ISearchEngine iSearchEngine = new EasySearch();
-        System.out.println("война - "+iSearchEngine.search(textBook," война "));
-        System.out.println("и - "+iSearchEngine.search(textBook, " и "));
-        iSearchEngine.search(textBook,"мир");
+         System.out.println("война - "+iSearchEngine.search(textBook,"война"));
+        System.out.println("и - "+iSearchEngine.search(textBook, "и"));
+        System.out.println("мир - "+iSearchEngine.search(textBook,"мир"));
     }
 }
